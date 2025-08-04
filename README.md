@@ -55,21 +55,21 @@ CodeSync is a modern remote interview solution that allows interviewers to sched
 
 1. **Clone the repository**
 
-   bash
+   ```bash
       git clone https://github.com/dixit2894/CodeSync-remote-interview-platform.git
       cd CodeSync-remote-interview-platform
    
 
 2. **Install dependencies**
 
-   bash
+   ```bash
       npm install
    
 
 3. **Environment Setup**
    Create .env.local file with required API keys:
 
-   env
+   ```env
       NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
       CLERK_SECRET_KEY=your_clerk_secret
       NEXT_PUBLIC_STREAM_API_KEY=your_stream_key
@@ -80,12 +80,12 @@ CodeSync is a modern remote interview solution that allows interviewers to sched
 
 4. **Setup Convex Database**
 
-   bash
+   ```bash
       npx convex dev
    
 
 5. **Run Development Server**
-   bash
+   ```bash
       npm run dev
    
 ---
