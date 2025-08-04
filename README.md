@@ -56,7 +56,7 @@ CodeSync is a modern remote interview solution that allows interviewers to sched
 1. *Clone the repository*
 
    bash
-   git clone https://github.com/harsh8104/CodeSync-remote-interview-platform.git
+   git clone https://github.com/dixit2894/CodeSync-remote-interview-platform.git
    cd CodeSync-remote-interview-platform
    
 
